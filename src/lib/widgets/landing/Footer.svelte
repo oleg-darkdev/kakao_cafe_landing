@@ -21,7 +21,6 @@
 								src="images/66a3d02bf535431bfec99cf6_GLlogoCombo.png"
 								loading="lazy"
 								sizes="(max-width: 479px) 224px, 272px"
-								srcset="images/66a3d02bf535431bfec99cf6_GLlogoCombo-p-500.png 500w, images/66a3d02bf535431bfec99cf6_GLlogoCombo.png 732w"
 								alt="primary logo"
 								class="max-width-logo"
 							/>

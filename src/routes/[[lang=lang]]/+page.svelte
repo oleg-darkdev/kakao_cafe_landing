@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { boardgamesList, categories } from '$sharedData';
-	import { LineDivider, SmallContaciDivider } from '$sharedUi';
+	// import { boardgamesList, categories } from '$sharedData';
+	// import { LineDivider, SmallContaciDivider } from '$sharedUi';
 	import { Faq, PreHeader, Hero, PopularItems, Blog, ExploreMenu, About, VisitUs, FreeSection, Contact } from '$widgetsLanding';
 </script>
 
@@ -28,22 +28,7 @@
 				<div class="container-large">
 					<div class="padding-section-large more-top">
 						<div class="max-width-large"></div>
-						<div class="w-embed w-script">
-							<script src="js/platform.js" data-use-service-core="" defer=""></script>
-							<div
-								class="elfsight-app-c195e9ab-6638-4748-b896-3a33215b270c"
-								data-elfsight-app-lazy=""
-							></div>
-							<style>
-								.WidgetTitle__Header-sc-ruy1gu-2 {
-									margin-left: 0;
-									margin-right: auto;
-									font-size: 3rem;
-									font-family: 'Spot';
-									font-weight: 400;
-								}
-							</style>
-						</div>
+
 					</div>
 				</div>
 			</div>
@@ -93,4 +78,11 @@
 </div>
 
 <style lang="postcss">
+							.WidgetTitle__Header-sc-ruy1gu-2 {
+									margin-left: 0;
+									margin-right: auto;
+									font-size: 3rem;
+									font-family: 'Spot';
+									font-weight: 400;
+								}
 </style>

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { Header, Footer } from '$widgetsLanding';
-	import { navigation, categories } from '$sharedData';
+	// , categories
+	import { navigation } from '$sharedData';
 	import '../../../app/app.css';
 
 	let { children } = $props();
@@ -13,7 +14,8 @@
 		{@render children()}
 	</main>
 
-	<Footer {navigation} {categories}/>
+	<!--  {categories} -->
+	<Footer {navigation}/>
 </div>
 
 
