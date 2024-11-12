@@ -1,7 +1,11 @@
 const navigation = [
 	{
-		title: 'Lorem Ipsum',
+		title: 'Quest po Warszawie',
 		link: '/'
+	},
+	{
+		title: 'Nasze menu',
+		link: '#menu'
 	},
 	{
 		title: 'Lorem Ipsum',
@@ -16,12 +20,8 @@ const navigation = [
 		link: '/'
 	},
 	{
-		title: 'Lorem Ipsum',
-		link: '/'
-	},
-	{
-		title: 'Lorem Ipsum',
-		link: '/'
+		title: 'O nas',
+		link: '#about'
 	},
 	{
 		title: 'Lorem Ipsum',
