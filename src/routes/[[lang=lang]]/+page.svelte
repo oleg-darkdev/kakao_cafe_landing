@@ -1,7 +1,19 @@
 <script lang="ts">
 	// import { boardgamesList, categories } from '$sharedData';
 	// import { LineDivider, SmallContaciDivider } from '$sharedUi';
-	import { Faq, PreHeader, Quest, Hero, PopularItems, Blog, ExploreMenu, About, VisitUs, FreeSection, Contact } from '$widgetsLanding';
+	import {
+		Faq,
+		PreHeader,
+		Quest,
+		Hero,
+		PopularItems,
+		Blog,
+		ExploreMenu,
+		About,
+		VisitUs,
+		Stats,
+		Contact
+	} from '$widgetsLanding';
 </script>
 
 <svelte:head>
@@ -16,7 +28,6 @@
 		<Hero />
 
 		<PopularItems />
-		
 
 		<ExploreMenu>
 			<Quest />
@@ -24,14 +35,13 @@
 
 		<About />
 
-		<FreeSection />
+		<Stats />
 
 		<section class="section_home_testimonial">
 			<div class="padding-global">
 				<div class="container-large">
 					<div class="padding-section-large more-top">
 						<div class="max-width-large"></div>
-
 					</div>
 				</div>
 			</div>
@@ -72,20 +82,18 @@
 
 		<Blog />
 
-		
 		<VisitUs />
 
 		<Contact />
 	</main>
-	
 </div>
 
 <style lang="postcss">
-							.WidgetTitle__Header-sc-ruy1gu-2 {
-									margin-left: 0;
-									margin-right: auto;
-									font-size: 3rem;
-									font-family: 'Spot';
-									font-weight: 400;
-								}
+	.WidgetTitle__Header-sc-ruy1gu-2 {
+		margin-left: 0;
+		margin-right: auto;
+		font-size: 3rem;
+		font-family: 'Spot';
+		font-weight: 400;
+	}
 </style>
