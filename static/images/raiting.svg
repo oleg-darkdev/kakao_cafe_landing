@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f6b375;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #441c16;
+        font-family: MOUNTAINDew, 'MOUNTAIN Dew';
+        font-size: 271.09px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="-15.94" y="-11.79" width="441.56" height="423.73"/>
+  <text class="cls-2" transform="translate(22.89 288.49)"><tspan x="0" y="0">4,9</tspan></text>
+</svg>
