@@ -4,7 +4,7 @@
 	import { QuestCard } from '$entitiesLanding';
 </script>
 
-<section class="section_home_blog-list">
+<section id='gamification' class="section_home_blog-list">
 	<div class="padding-global z-index-2">
 		<div class="container-large">
 			<div class="padding-section-large">
