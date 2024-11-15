@@ -101,13 +101,6 @@
 		</div>
 	</div>
 	<div class="food-wrapper left eggs">
-		<!-- https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa4305f2a698c8fa358653_eggs.avif -->
-		<!-- 			src="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa43059defe8460ce4d7d8_berryCluster.avif"
- -->
-		<!-- https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d043beabeb9700becc97_lettice.avif -->
-		<!-- https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa4305d37c0cb98a0faf29_wheat.avif -->
-		<!-- https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa43051054b335fee5462b_jalapeno.avif -->
-
 		<img src="/images/grains_1.png" loading="eager" sizes="192px" alt="img 1" />
 	</div>
 	<div class="food-wrapper right berries">
@@ -117,10 +110,10 @@
 		<img src="/images/cup.png" loading="eager" sizes="240px" alt="img 3" class="flip-horiz" />
 	</div>
 	<div class="food-wrapper left wheat">
-		<img src="/images/spoon.png" loading="eager" sizes="240px" alt="img 4" class="flip-horiz" />
+		<img src="/images/cookies.png" loading="eager" sizes="240px" alt="img 4" class="flip-horiz" />
 	</div>
 	<div class="food-wrapper left jalapeno">
-		<img src="" loading="eager" alt="img 4" />
+		<img src="/images/cookies.png" loading="eager" alt="img 4" />
 	</div>
 </section>
 
