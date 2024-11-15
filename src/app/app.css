@@ -4731,7 +4731,7 @@ figcaption {
   grid-column-gap: 3rem;
   grid-row-gap: 4rem;
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   place-items: start center;
   display: grid;
@@ -4746,7 +4746,7 @@ figcaption {
 }
 
 .layout239_image-wrapper {
-  background-color: var(--background-color--background-primary);
+  background-color: #f6b375;
   border-radius: 100%;
   width: 10rem;
   padding: 2rem;
