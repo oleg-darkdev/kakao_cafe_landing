@@ -14,11 +14,17 @@
 					</div>
 					<div class="home_newsletter_content-right">
 						<p class="text-size-medium">
-							Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.
+							Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle
+							poligraficznym.
 						</p>
 						<div class="spacer-medium"></div>
 						<div class="home_newsletter_form-block w-form">
-							<form
+							<div class="button-group">
+								<a href="#menu" class="button w-button">Menu</a>
+								<a href="#gamification" class="button is-secondary w-button">Rozrywki</a>
+							</div>
+
+							<!-- <form
 								id="email-form"
 								name="email-form"
 								data-name="Email Form"
@@ -48,13 +54,7 @@
 								<div class="text-size-tiny">
 									Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.
 								</div>
-							</form>
-							<!-- <div class="success-message w-form-done">
-								<div class="success-text">Thank you! Your subscription has been received!</div>
-							</div>
-							<div class="error-message w-form-fail">
-								<div class="error-text">Oops! Something went wrong. Please try again.</div>
-							</div> -->
+							</form> -->
 						</div>
 					</div>
 				</div>
