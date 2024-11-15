@@ -90,7 +90,7 @@
 						<div
 							class="footer4_credit-text"
 						>
-							© 2023-2025 Kakao. Białoruskie wypieki. All rights reserved.
+							© 2023-2025 Kakao. Białoruskie wypieki.
 						</div>
 						{#each footerLinks as {title, link}}
 							<a href="{link}" class="footer4_legal-link">{title}</a>
