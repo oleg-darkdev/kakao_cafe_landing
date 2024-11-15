@@ -10,13 +10,12 @@
 			<h1>Przygotowujemy pyszną kawę i wypieki, po których można poczuć się zrelaksowanym.</h1>
 			<div class="spacer-small"></div>
 			<p class="text-size-medium">
-				Experience the best of Portland's locally-sourced cuisine and organic Fairtrade coffee at
-				GreenLeaf Café.
+				Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.
 			</p>
 			<div class="spacer-medium"></div>
 			<div class="button-group">
-				<a href="#" class="button w-button">Order Now</a>
-				<a href="#" class="button is-secondary w-button">Nasze menu</a>
+				<a href="#popular" class="button w-button">Co jest popularne</a>
+				<a href="#menu" class="button is-secondary w-button">Nasze menu</a>
 			</div>
 		</div>
 		<div class="home_hero-header_image-wrapper">
