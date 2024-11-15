@@ -119,11 +119,11 @@
 		<img src="/images/grains_1.png" loading="eager" sizes="240px" alt="" class="flip-horiz" />
 	</div>
 	<div class="food-wrapper left wheat">
-		<img src="/images/spoon.png" loading="eager" sizes="240px" alt="" class="flip-horiz" />
+		<img src="/images/cup.png" loading="eager" sizes="240px" alt="" class="flip-horiz" />
 	</div>
 	<div class="food-wrapper left jalapeno">
 		<!-- cup -->
-		<img src="/images/spoon.png" loading="eager" alt="" />
+		<img src="/images/cockies_2.png" loading="eager" alt="" />
 	</div>
 </section>
 
