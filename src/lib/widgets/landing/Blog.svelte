@@ -1,7 +1,7 @@
 <script lang="ts">
-	// import {  } from '$shared';
+	import { supportOptions } from '$sharedData';
 	// import {  } from '$widgets';
-	// import {  } from '$entities'
+	import { SupportCard } from '$entitiesLanding';
 </script>
 
 <section data-w-id="643f7b28-0097-e68b-64b0-8bb2dc0b99e9" class="section_home_blog-list">
@@ -13,7 +13,7 @@
 						<div class="home_blog-list_heading">
 							<div class="max-width-large display-flex-vert">
 								<div class="star-anchor">
-									<h2>Read About Our Local Farms</h2>
+									<h2>Wsparcie przy otwarciu drugiej lokalizacji</h2>
 									<div class="stars farms">
 										<div class="icon-embed-medium w-embed">
 											<svg
@@ -78,7 +78,9 @@
 								</div>
 								<div class="spacer-xsmall"></div>
 								<p class="text-size-medium">
-									Learn where we source all our local ingredients from.
+									Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+									an unknown printer took a galley of type and scrambled it to make a type specimen
+									book.
 								</p>
 							</div>
 						</div>
@@ -93,198 +95,9 @@
 					<div class="spacer-xxlarge show-mobile-landscape"></div>
 					<div class="home_blog-list_list-wrapper w-dyn-list">
 						<div role="list" class="home_blog-list_list w-dyn-items">
-							<div role="listitem" class="home_blog-list_item w-dyn-item">
-								<div class="home_blog-list_item-link">
-									<div class="home_blog-list_image-wrapper">
-										<img
-											src="images/66a7c47f28c6a288c383b580_image%208.png"
-											loading="lazy"
-											alt=""
-											sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 28vw"
-											srcset="images/66a7c47f28c6a288c383b580_image%208-p-500.png 500w, images/66a7c47f28c6a288c383b580_image%208.png 645w"
-											class="home_blog-list_image"
-										/>
-									</div>
-									<div class="home_blog-list_item-content">
-										<div class="home_blog-list_item-content-top">
-											<div class="home_blog-list_meta-wrapper">
-												<div class="ingredient-list-wrapper w-dyn-list">
-													<div role="list" class="ingredient-list w-dyn-items">
-														<div role="listitem" class="ingredient-item w-dyn-item">
-															<div class="home_blog-list_category">
-																<div class="text-size-small text-weight-semibold">Fruit</div>
-															</div>
-														</div>
-														<div role="listitem" class="ingredient-item w-dyn-item">
-															<div class="home_blog-list_category">
-																<div class="text-size-small text-weight-semibold">Vegetables</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="small-gap">
-													<div class="text-size-small text-weight-semibold text-inline">7</div>
-													<div class="text-size-small text-weight-semibold text-inline">
-														min read
-													</div>
-												</div>
-											</div>
-											<div class="home_blog-list_title-wrapper">
-												<h3 class="heading-style-h5">Hood River Farms</h3>
-											</div>
-											<div class="text-size-regular">
-												Hood River Organic Produce supplies fresh organic produce grown without all
-												the nasty pesticides that conventional produce contains.
-											</div>
-										</div>
-										<div class="home_blog-list_button-wrapper">
-											<a href="#" class="button is-link is-icon w-inline-block">
-												<div>Read more</div>
-												<div class="icon-embed-xxsmall w-embed">
-													<svg
-														width="16"
-														height="16"
-														viewBox="0 0 16 16"
-														fill="none"
-														xmlns="http://www.w3.org/2000/svg"
-													>
-														<path d="M6 3L11 8L6 13" stroke="CurrentColor" stroke-width="1.5"
-														></path>
-													</svg>
-												</div>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div role="listitem" class="home_blog-list_item w-dyn-item">
-								<div class="home_blog-list_item-link">
-									<div class="home_blog-list_image-wrapper">
-										<img
-											src="images/66a7c364089625e73f737b10_8986ea_dde75c5711914c85972adda3f55a5202~mv2.webp"
-											loading="lazy"
-											alt=""
-											sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 28vw"
-											srcset="images/66a7c364089625e73f737b10_8986ea_dde75c5711914c85972adda3f55a5202~mv2-p-500.webp 500w, images/66a7c364089625e73f737b10_8986ea_dde75c5711914c85972adda3f55a5202~mv2.webp 640w"
-											class="home_blog-list_image"
-										/>
-									</div>
-									<div class="home_blog-list_item-content">
-										<div class="home_blog-list_item-content-top">
-											<div class="home_blog-list_meta-wrapper">
-												<div class="ingredient-list-wrapper w-dyn-list">
-													<div role="list" class="ingredient-list w-dyn-items">
-														<div role="listitem" class="ingredient-item w-dyn-item">
-															<div class="home_blog-list_category">
-																<div class="text-size-small text-weight-semibold">Dairy</div>
-															</div>
-														</div>
-														<div role="listitem" class="ingredient-item w-dyn-item">
-															<div class="home_blog-list_category">
-																<div class="text-size-small text-weight-semibold">Meat</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="small-gap">
-													<div class="text-size-small text-weight-semibold text-inline">5</div>
-													<div class="text-size-small text-weight-semibold text-inline">
-														min read
-													</div>
-												</div>
-											</div>
-											<div class="home_blog-list_title-wrapper">
-												<h3 class="heading-style-h5">Deck Family Farm</h3>
-											</div>
-											<div class="text-size-regular">
-												Deck family farm has been cultivating productive land and producing
-												high-quality, nutritious food including free-range poultry, eggs, and dairy.
-											</div>
-										</div>
-										<div class="home_blog-list_button-wrapper">
-											<a href="#" class="button is-link is-icon w-inline-block">
-												<div>Read more</div>
-												<div class="icon-embed-xxsmall w-embed">
-													<svg
-														width="16"
-														height="16"
-														viewBox="0 0 16 16"
-														fill="none"
-														xmlns="http://www.w3.org/2000/svg"
-													>
-														<path d="M6 3L11 8L6 13" stroke="CurrentColor" stroke-width="1.5"
-														></path>
-													</svg>
-												</div>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div role="listitem" class="home_blog-list_item w-dyn-item">
-								<div class="home_blog-list_item-link">
-									<div class="home_blog-list_image-wrapper">
-										<img
-											src="images/66a7c29c52502d1fcfe932e4_zenger-july-13th-2016-part-2-gallery-2-00991-scaled.webp"
-											loading="lazy"
-											alt=""
-											sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 28vw"
-											srcset="images/66a7c29c52502d1fcfe932e4_zenger-july-13th-2016-part-2-gallery-2-00991-scaled-p-500.webp 500w, images/66a7c29c52502d1fcfe932e4_zenger-july-13th-2016-part-2-gallery-2-00991-scaled-p-800.webp 800w, images/66a7c29c52502d1fcfe932e4_zenger-july-13th-2016-part-2-gallery-2-00991-scaled-p-1080.webp 1080w, images/66a7c29c52502d1fcfe932e4_zenger-july-13th-2016-part-2-gallery-2-00991-scaled-p-1600.webp 1600w, images/66a7c29c52502d1fcfe932e4_zenger-july-13th-2016-part-2-gallery-2-00991-scaled-p-2000.webp 2000w, images/66a7c29c52502d1fcfe932e4_zenger-july-13th-2016-part-2-gallery-2-00991-scaled.webp 2560w"
-											class="home_blog-list_image"
-										/>
-									</div>
-									<div class="home_blog-list_item-content">
-										<div class="home_blog-list_item-content-top">
-											<div class="home_blog-list_meta-wrapper">
-												<div class="ingredient-list-wrapper w-dyn-list">
-													<div role="list" class="ingredient-list w-dyn-items">
-														<div role="listitem" class="ingredient-item w-dyn-item">
-															<div class="home_blog-list_category">
-																<div class="text-size-small text-weight-semibold">Grain</div>
-															</div>
-														</div>
-														<div role="listitem" class="ingredient-item w-dyn-item">
-															<div class="home_blog-list_category">
-																<div class="text-size-small text-weight-semibold">Vegetables</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="small-gap">
-													<div class="text-size-small text-weight-semibold text-inline">7</div>
-													<div class="text-size-small text-weight-semibold text-inline">
-														min read
-													</div>
-												</div>
-											</div>
-											<div class="home_blog-list_title-wrapper">
-												<h3 class="heading-style-h5">Zenger Farm</h3>
-											</div>
-											<div class="text-size-regular">
-												Zenger Farm is a working urban farm that models, promotes, and educates
-												about sustainable food systems, and access to good food for all.
-											</div>
-										</div>
-										<div class="home_blog-list_button-wrapper">
-											<a href="#" class="button is-link is-icon w-inline-block">
-												<div>Read more</div>
-												<div class="icon-embed-xxsmall w-embed">
-													<svg
-														width="16"
-														height="16"
-														viewBox="0 0 16 16"
-														fill="none"
-														xmlns="http://www.w3.org/2000/svg"
-													>
-														<path d="M6 3L11 8L6 13" stroke="CurrentColor" stroke-width="1.5"
-														></path>
-													</svg>
-												</div>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
+							{#each supportOptions as option}
+								<SupportCard {option} />
+							{/each}
 						</div>
 					</div>
 				</div>
@@ -292,49 +105,25 @@
 		</div>
 	</div>
 	<div class="food-wrapper left eggs">
-		<img
-			src="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa4305f2a698c8fa358653_eggs.avif"
-			loading="eager"
-			sizes="192px"
-			srcset="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa4305f2a698c8fa358653_eggs-p-500.avif 500w, https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa4305f2a698c8fa358653_eggs.avif 1000w"
-			alt="group of 3 eggs"
-		/>
+		<!-- https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa4305f2a698c8fa358653_eggs.avif -->
+		<!-- https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa43059defe8460ce4d7d8_berryCluster.avif -->
+		<!-- https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d043beabeb9700becc97_lettice.avif -->
+		<!-- https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa4305d37c0cb98a0faf29_wheat.avif -->
+		<!-- https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa43051054b335fee5462b_jalapeno.avif -->
+		<img src="/images/grains_1.png" loading="eager" sizes="192px" alt="" />
 	</div>
 	<div class="food-wrapper right berries">
-		<img
-			src="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa43059defe8460ce4d7d8_berryCluster.avif"
-			loading="eager"
-			sizes="320px"
-			srcset="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa43059defe8460ce4d7d8_berryCluster-p-500.avif 500w, https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa43059defe8460ce4d7d8_berryCluster.avif 1000w"
-			alt="cluster of berries"
-		/>
+		<img src="/images/grains_1.png" loading="eager" sizes="320px" alt="" />
 	</div>
 	<div class="food-wrapper right lettuce">
-		<img
-			src="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d043beabeb9700becc97_lettice.avif"
-			loading="eager"
-			sizes="240px"
-			srcset="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d043beabeb9700becc97_lettice-p-500.avif 500w, https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d043beabeb9700becc97_lettice.avif 1000w"
-			alt="bunch of romaine lettuce"
-			class="flip-horiz"
-		/>
+		<img src="/images/grains_1.png" loading="eager" sizes="240px" alt="" class="flip-horiz" />
 	</div>
 	<div class="food-wrapper left wheat">
-		<img
-			src="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa4305d37c0cb98a0faf29_wheat.avif"
-			loading="eager"
-			sizes="240px"
-			srcset="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa4305d37c0cb98a0faf29_wheat-p-500.avif 500w, https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa4305d37c0cb98a0faf29_wheat.avif 1000w"
-			alt="2 grains of wheat"
-			class="flip-horiz"
-		/>
+		<img src="/images/spoon.png" loading="eager" sizes="240px" alt="" class="flip-horiz" />
 	</div>
 	<div class="food-wrapper left jalapeno">
-		<img
-			src="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66aa43051054b335fee5462b_jalapeno.avif"
-			loading="eager"
-			alt="jalapeno pepper"
-		/>
+		<!-- cup -->
+		<img src="/images/spoon.png" loading="eager" alt="" />
 	</div>
 </section>
 
