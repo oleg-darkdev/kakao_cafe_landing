@@ -9,26 +9,24 @@ import PopularItems from './PopularItems.svelte';
 import ExploreMenu from './ExploreMenu.svelte';
 import About from './About.svelte';
 import VisitUs from './VisitUs.svelte';
-import FreeSection from './FreeSection.svelte';
+import Stats from './Stats.svelte';
 import Blog from './Blog.svelte';
 import Contact from './Contact.svelte';
 import Quest from './Quest.svelte';
 // import Faq from './Faq.svelte';
-
-
 
 export {
 	Header,
 	Faq,
 	Footer,
 	PreHeader,
-    Hero,
-    Contact,
+	Hero,
+	Contact,
 	PopularItems,
 	ExploreMenu,
 	Quest,
 	About,
 	VisitUs,
-	FreeSection,
-	Blog,
+	Stats,
+	Blog
 };
