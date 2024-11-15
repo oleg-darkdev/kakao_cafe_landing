@@ -21,7 +21,7 @@
 		</div>
 		<div class="home_hero-header_image-wrapper">
 			<img
-				src=""
+				src="/images/hero.png"
 				loading="eager"
 				sizes="(max-width: 991px) 100vw, 56vw"
 				alt=""
@@ -61,12 +61,7 @@
 		</div>
 	</div>
 	<div class="arc-border-wrapper">
-		<img
-			src="images/66aa3d9e9d47221e13ca4a80_arcLighter.svg"
-			loading="lazy"
-			alt=""
-			class="arc-image"
-		/>
+		<img src="/images/arcLighter.svg" loading="lazy" alt="" class="arc-image" />
 	</div>
 </div>
 
