@@ -9,19 +9,20 @@
 <div role="listitem" class="max-w-md home_blog-list_item w-dyn-item">
 	<div class="home_blog-list_item-link">
 		<div class="home_blog-list_image-wrapper">
+			<!-- 				sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 28vw"
+ -->
 			<img
 				src="{option.img}"
 				loading="lazy"
 				alt=""
-				sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 28vw"
-				class="home_blog-list_image"
+				class="support-img"
 			/>
 		</div>
 		<div class="home_blog-list_item-content">
 			<div class="home_blog-list_item-content-top">
 				
 				<div class="home_blog-list_title-wrapper">
-					<h3 class="heading-style-h5">{option.title}</h3>
+					<h3 class="heading-style-h5">{option.title} {option.amount} <span class="">zł.</span></h3>
 				</div>
 				<!-- <div class="text-size-regular">
 					{option.shortDesc}
@@ -48,4 +49,13 @@
 </div>
 
 <style lang="postcss">
+	
+.support-img {
+  aspect-ratio: 3 / 1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
 </style>
