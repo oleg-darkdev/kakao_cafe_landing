@@ -1,18 +1,25 @@
 <script lang="ts">
+	import { fade } from 'svelte/transition';
+
 	// import {  } from '$shared';
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
+
+	let showInfoPanel = $state(true);
 </script>
 
-<section style="display:block" class="banner10_component">
+{#if showInfoPanel}
+	<section
+		style="display:block"
+		class="banner10_component"
+	>
 		<div class="padding-global">
 			<div class="banner10_content-wrapper">
 				<div class="banner10_content text-weight-semibold">
-					<div>Rozpocznij swoją  <a href="#">podróż po Warszawie!</a></div>
+					<div><a href="/quest">Quest po Warszawie</a> z naszą kawą!</div>
 				</div>
-				<a
-					data-w-id="b954abbc-13c6-8dfb-e588-ee0f51b42d42"
-					href="#"
+				<button
+					on:click={(showInfoPanel = !showInfoPanel)}
 					class="banner10_close-button w-inline-block"
 				>
 					<div class="icon-embed-small w-embed">
@@ -29,10 +36,11 @@
 							></path>
 						</svg>
 					</div>
-				</a>
+				</button>
 			</div>
 		</div>
 	</section>
-	
+{/if}
+
 <style lang="postcss">
 </style>
