@@ -1,35 +1,32 @@
 const navigation = [
 	{
-		title: 'Quest po Warszawie',
+		title: 'Bardziej popularnie',
 		link: '/'
 	},
+	// Quest
 	{
 		title: 'Nasze menu',
 		link: '#menu'
 	},
 	{
-		title: 'Lorem Ipsum',
-		link: '/'
+		title: 'Sklep',
+		link: '/shop'
 	},
 	{
-		title: 'Lorem Ipsum',
-		link: '/'
-	},
-	{
-		title: 'Lorem Ipsum',
-		link: '/'
+		title: 'Kontakt',
+		link: '#contact'
 	},
 	{
 		title: 'O nas',
 		link: '#about'
 	},
 	{
-		title: 'Lorem Ipsum',
-		link: '/'
+		title: 'Quest',
+		link: '#quest'
 	},
 	{
-		title: 'Lorem Ipsum',
-		link: '/'
+		title: 'Quiz',
+		link: '#quiz'
 	}
 ];
 
