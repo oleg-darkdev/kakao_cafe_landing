@@ -4,7 +4,7 @@
 	// import {  } from '$shared';
 	let { navigation } = $props();
 
-	let showMenu = $state(true);
+	let showMenu = $state(false);
 </script>
 
 <div class="navbar9_component w-nav" data-w-id="643f7b28-0097-e68b-64b0-8bb2dc0b97c8" role="banner">
