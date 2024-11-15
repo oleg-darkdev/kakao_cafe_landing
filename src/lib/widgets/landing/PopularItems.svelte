@@ -6,7 +6,7 @@
 	// let { popularItem } = $props();
 </script>
 
-<section class="section_home_features-list">
+<section id='popular' class="section_home_features-list">
 	<div class="padding-global">
 		<div class="container-large">
 			<div class="padding-section-large">
@@ -187,31 +187,28 @@
 			</svg>
 		</div>
 	</div>
-	<div class="food-wrapper left lettuce">
+	<!-- <div class="food-wrapper left lettuce">
 		<img
-			src="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d043beabeb9700becc97_lettice.avif"
+			src="/images/cookies.png"
 			loading="eager"
 			sizes="208px"
-			srcset="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d043beabeb9700becc97_lettice-p-500.avif 500w, https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d043beabeb9700becc97_lettice.avif 1000w"
-			alt="bunch of romaine lettuce"
+			alt=""
 		/>
-	</div>
+	</div> -->
 	<div class="food-wrapper left onions">
 		<img
-			src="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d04391845f0349b6e458_onions.avif"
+			src="/images/cookies.png"
 			loading="eager"
 			sizes="192px"
-			srcset="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d04391845f0349b6e458_onions-p-500.avif 500w, https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d04391845f0349b6e458_onions.avif 1000w"
-			alt="pile of sliced red onions"
+			alt=""
 		/>
 	</div>
-	<div class="food-wrapper left tomatoes">
+	<div class="food-wrapper left tomatoes rotate-90">
 		<img
-			src="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d043c0f5a75edc0af728_tomatoes.avif"
+			src="/images/cookies.png"
 			loading="eager"
 			sizes="160px"
-			srcset="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d043c0f5a75edc0af728_tomatoes-p-500.avif 500w, https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d043c0f5a75edc0af728_tomatoes.avif 1000w"
-			alt="group of 3 grape tomatoes"
+			alt=""
 		/>
 	</div>
 	<div class="stars _2">
