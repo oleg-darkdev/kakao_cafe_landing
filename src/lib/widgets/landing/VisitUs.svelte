@@ -4,7 +4,7 @@
 	// import {  } from '$entities'
 </script>
 
-<section class="section_contact14">
+<section id="contact" class="section_contact14">
 	<div class="padding-global z-index-2">
 		<div class="container-large">
 			<div class="padding-section-large more-bottom">
@@ -98,7 +98,7 @@
 									</div>
 								</div>
 								<div class="spacer-xsmall"></div>
-								<h3 class="heading-style-h5">Hours</h3>
+								<h3 class="heading-style-h5">Godziny pracy</h3>
 								<div class="spacer-xxsmall"></div>
 								<div class="hours-of-operation-wrapper">
 									<div class="day-row">
@@ -213,12 +213,7 @@
 		</div>
 	</div>
 	<div class="arc-border-wrapper">
-		<img
-			src="images/66aa3d9eee15e2961ba0b0b0_arcDarker.svg"
-			loading="lazy"
-			alt=""
-			class="arc-image"
-		/>
+		<img src="images/arcDarker.svg" loading="lazy" alt="" class="arc-image" />
 	</div>
 </section>
 

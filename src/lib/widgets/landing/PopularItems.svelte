@@ -1,7 +1,9 @@
 <script lang="ts">
 	import { popular } from '$sharedData';
 	// import {  } from '$widgets';
-	// import {  } from '$entities'
+	import { ItemCard } from '$entitiesLanding'
+
+	// let { popularItem } = $props();
 </script>
 
 <section class="section_home_features-list">
@@ -78,36 +80,10 @@
 				<div class="home_features-list_component w-slider">
 					<div class="home_features-list_mask w-slider-mask">
 						{#each popular as item}
-						<div class="home_features-list_slide w-slide">
-							<div class="home_features-list_item">
-								<div class="home_features-list_image-wrapper">
-									<img
-										loading="lazy"
-										sizes="(max-width: 479px) 70vw, (max-width: 767px) 62vw, (max-width: 991px) 37vw, 20vw"
-										src="https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d0437900d58be8cfcbec_bowl4.avif"
-										alt="grain bowl"
-										class="home_features-list_image"
-									/>
-								</div>
-								<div class="spacer-xsmall"></div>
-								<div class="home_features-list_title-wrapper">
-									<div class="text-size-large text-weight-semibold text-all-caps">pittock bowl</div>
-								</div>
-								<div class="spacer-xsmall"></div>
-								<p>
-									Grilled chicken, whole grain rice, chick peas, tomatoes, mango, red onion,
-									cilantro vinaigrette
-								</p>
-								<div class="spacer-small"></div>
-								<a href="#" class="button is-secondary is-small w-button">Order Now</a>
-							</div>
-						</div>
+							<ItemCard {item} />
 						{/each}
 					</div>
-					<div
-						id="prevButton"
-						class="home_features-list_arrow left w-slider-arrow-left"
-					>
+					<div id="prevButton" class="home_features-list_arrow left w-slider-arrow-left">
 						<div class="home_features-list_arrow-icon w-embed">
 							<svg
 								width="100%"
@@ -123,10 +99,7 @@
 							</svg>
 						</div>
 					</div>
-					<div
-						id="nextButton"
-						class="home_features-list_arrow w-slider-arrow-right"
-					>
+					<div id="nextButton" class="home_features-list_arrow w-slider-arrow-right">
 						<div class="home_features-list_arrow-icon w-embed">
 							<svg
 								width="100%"

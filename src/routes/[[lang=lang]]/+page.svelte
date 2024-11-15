@@ -1,7 +1,7 @@
 <script lang="ts">
 	// import { boardgamesList, categories } from '$sharedData';
 	// import { LineDivider, SmallContaciDivider } from '$sharedUi';
-	import { Faq, PreHeader, Hero, PopularItems, Blog, ExploreMenu, About, VisitUs, FreeSection, Contact } from '$widgetsLanding';
+	import { Faq, PreHeader, Quest, Hero, PopularItems, Blog, ExploreMenu, About, VisitUs, FreeSection, Contact } from '$widgetsLanding';
 </script>
 
 <svelte:head>
@@ -16,8 +16,11 @@
 		<Hero />
 
 		<PopularItems />
+		
 
-		<ExploreMenu />
+		<ExploreMenu>
+			<Quest />
+		</ExploreMenu>
 
 		<About />
 
