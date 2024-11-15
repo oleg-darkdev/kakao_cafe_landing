@@ -77,16 +77,16 @@
 									</div>
 								</div>
 								<div class="spacer-xsmall"></div>
-								<p class="text-size-medium">To nie tylko kawiarnia, ale inicjatywa kulturalna.</p>
+								<p class="text-size-medium">Nasza kawiarnia to miejsce, w którym można naładować rakietę przed podróżą po Warszawie.</p>
 							</div>
 						</div>
 						<div class="home_blog-list_button-row hide-mobile-landscape">
-							<a href="#" class="button is-secondary w-button">Read more</a>
+							<a href="#menu" class="button is-secondary w-button">Weź ze sobą kawę</a>
 						</div>
 					</div>
 					<div class="spacer-xxlarge"></div>
 					<div class="home_blog-list_button-row show-mobile-landscape">
-						<a href="#" class="button is-secondary w-button">View all</a>
+						<a href="#menu" class="button is-secondary w-button">Weź ze sobą kawę</a>
 					</div>
 					<div class="spacer-xxlarge show-mobile-landscape"></div>
 					<div class="home_blog-list_list-wrapper w-dyn-list">

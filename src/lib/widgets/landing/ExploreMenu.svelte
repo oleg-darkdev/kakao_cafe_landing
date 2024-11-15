@@ -5,31 +5,31 @@
 
 	const categories = [
 		{
-			title: 'Ziarenka',
+			title: 'Ziarenka kawy',
 			img: '/images/categories/grains.png',
 			link: '/',
 			shortDesc: ''
 		},
 		{
-			title: 'Coffee',
+			title: 'Ciepła kawa',
 			img: '/images/categories/coffee.png',
 			link: '/',
 			shortDesc: ''
 		},
 		{
-			title: 'Tea',
+			title: 'Herbata',
 			img: '/images/categories/tea.png',
 			link: '/',
 			shortDesc: ''
 		},
 		{
-			title: 'Сakes',
+			title: 'Wypieki',
 			img: '/images/categories/cakes.png',
 			link: '/',
 			shortDesc: ''
 		},
 		{
-			title: 'Sweets',
+			title: 'Ciastka',
 			img: '/images/categories/sweets.png',
 			link: '/',
 			shortDesc: ''

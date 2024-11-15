@@ -46,7 +46,7 @@
 
 							<div class="spacer-medium"></div>
 							<div class="button-group">
-								<a href="#" class="button is-secondary w-button">Order Now</a>
+								<a href="#menu" class="button is-secondary w-button">Nasze menu</a>
 							</div>
 						</div>
 						<div class="home_about_image-wrapper">

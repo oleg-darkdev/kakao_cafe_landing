@@ -20,16 +20,17 @@
 			</div>
 			<div class="navbar9_menu-right">
 				<!-- <a href="#" class="button is-secondary is-small hide w-button">Learn More</a>
-				<a href="#" class="button is-small w-button">Order Now</a> -->
+				<a href="#" class="button is-small w-button">Zamówić coś</a> -->
 				<!-- <div class="button-group"> -->
-					<a href="#menu" class="button w-button">Nasze menu</a>
-					<a href="#gamification" class="button is-secondary w-button">Rozrywki</a>
+				<a href="#menu" class="button w-button">Nasze menu</a>
+				<a href="#gamification" class="button is-secondary w-button">Rozrywki</a>
 				<!-- </div> -->
 			</div>
 		</nav>
 
 		{#if showMenu}
-			<nav on:click={() => (showMenu = !showMenu)} 
+			<nav
+				on:click={() => (showMenu = !showMenu)}
 				transition:fade={{ delay: 250, duration: 300 }}
 				role="navigation"
 				class="navbar9_menu-mobile w-nav-menu"
