@@ -2,6 +2,19 @@
 	// import {  } from '$shared';
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
+
+
+	const features = [
+		{
+			title: 'Mamy recenzij',
+			img: '/images/feedback.svg',
+			shortDesc: 'Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.'
+		},{
+			title: 'Nasza ocena',
+			img: '/images/raiting.svg',
+			shortDesc: 'Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.'
+		},
+	]
 </script>
 
 <section class="section_layout239">
@@ -12,7 +25,9 @@
 							<div class="text-align-center">
 								<div class="max-width-large">
 									<div class="star-anchor">
-										<h2>Earn Rewards</h2>
+										<h2>
+											Lorem Ipsum jest tekstem
+										</h2>
 										<div class="accent rewards">
 											<div class="icon-embed-medium flip-horiz w-embed">
 												<svg
@@ -48,60 +63,33 @@
 										</div>
 									</div>
 									<div class="spacer-small"></div>
-									<p class="text-size-medium">Get rewards just for enjoying GreenLeaf Café.</p>
+									<p class="text-size-medium">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
 								</div>
 							</div>
 							<div class="spacer-xxlarge"></div>
 							<div class="w-layout-grid layout239_list">
+								{#each features as {title, shortDesc, img}}
 								<div class="layout239_item">
 									<div class="layout239_image-wrapper">
 										<img
-											src="images/66aa8889278791c801d73b36_medal2.svg"
+											src="{img}"
 											loading="lazy"
-											alt=""
+											alt="{img} image"
 											class="layout239_image"
 										/>
 									</div>
 									<div class="spacer-medium"></div>
-									<h3 class="heading-style-h5">Earn points + Status</h3>
+									<h3 class="heading-style-h5">{title}</h3>
 									<div class="spacer-small"></div>
 									<p>
-										Get more points per dollar as you unlock status, and enjoy bonus rewards as you
-										complete challenges.
+										{shortDesc}
 									</p>
 								</div>
-								<div class="layout239_item">
-									<div class="layout239_image-wrapper">
-										<img
-											src="images/66aa388bbc090e6e356b8567_bowl.svg"
-											loading="lazy"
-											alt="graphic of a salad bowl"
-											class="layout239_image"
-										/>
-									</div>
-									<div class="spacer-medium"></div>
-									<h3 class="heading-style-h5">Get REwards</h3>
-									<div class="spacer-small"></div>
-									<p>Choose the rewards you want — including free menu items and exclusive swag.</p>
-								</div>
-								<div class="layout239_item">
-									<div class="layout239_image-wrapper">
-										<img
-											src="images/66aa388b774da96d9a7ff6ca_gift.svg"
-											loading="lazy"
-											alt="graphic of a gift"
-											class="layout239_image"
-										/>
-									</div>
-									<div class="spacer-medium"></div>
-									<h3 class="heading-style-h5">Birthday Gift</h3>
-									<div class="spacer-small"></div>
-									<p>Make your special day more delicious with a free meal on us.</p>
-								</div>
+								{/each}
 							</div>
 							<div class="spacer-xlarge"></div>
 							<div class="button-group is-center">
-								<a href="#" class="button is-secondary w-button">Sign Up Today</a>
+								<a href="#contact" class="button is-secondary w-button">Zapraszamy do odwiedzenia</a>
 							</div>
 						</div>
 					</div>
