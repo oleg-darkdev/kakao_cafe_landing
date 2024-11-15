@@ -10,12 +10,11 @@
 			<div class="padding-section-large">
 				<div class="w-layout-grid home_newsletter_component">
 					<div class="home_newsletter_content-left">
-						<h2>Get bonus reward points and exclusive offers</h2>
+						<h2>Lorem Ipsum jest tekstem stosowanym jako przykładowy.</h2>
 					</div>
 					<div class="home_newsletter_content-right">
 						<p class="text-size-medium">
-							Subscribe to our newsletter, and you will instantly get 100 reward points. That's
-							enough for a free craft-brewed coffee!
+							Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.
 						</p>
 						<div class="spacer-medium"></div>
 						<div class="home_newsletter_form-block w-form">
@@ -47,15 +46,15 @@
 									/>
 								</div>
 								<div class="text-size-tiny">
-									By signing up, you agree to our Terms and Conditions.
+									Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.
 								</div>
 							</form>
-							<div class="success-message w-form-done">
+							<!-- <div class="success-message w-form-done">
 								<div class="success-text">Thank you! Your subscription has been received!</div>
 							</div>
 							<div class="error-message w-form-fail">
 								<div class="error-text">Oops! Something went wrong. Please try again.</div>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
