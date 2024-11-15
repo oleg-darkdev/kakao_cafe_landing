@@ -103,26 +103,26 @@
 								<div class="hours-of-operation-wrapper">
 									<div class="day-row">
 										<div>Poniedziałek</div>
-										<div>10:00 - 16:00</div>
+										<div>10:00 - 19:00</div>
 									</div>
 									<div class="day-row">
 										<div>Wtorek</div>
-										<div>10:00 - 16:00</div>
+										<div>10:00 - 19:00</div>
 									</div>
 									<div class="day-row">
 										<div>Środa</div>
-										<div>10:00 - 16:00</div>
+										<div>10:00 - 19:00</div>
 									</div>
 									<div class="day-row">
 										<div>Czwartek</div>
-										<div>10:00 - 16:00</div>
+										<div>10:00 - 19:00</div>
 									</div>
 									<div
 										class="day-row"
 										style="font-weight: 600; background-color: var(--base-color-brand--moss-lighter);"
 									>
 										<div>Piątek</div>
-										<div>10:00 - 16:00</div>
+										<div>10:00 - 19:00</div>
 									</div>
 									<div class="day-row">
 										<div>Sobota</div>
@@ -183,8 +183,8 @@
 								<div>Grochowska 248, Warsaw, Poland, 04-368</div>
 								<div class="spacer-small"></div>
 								<div class="button-group">
-									<a href="#" class="button is-link is-icon w-inline-block">
-										<div>Get Directions</div>
+									<a target="_blank" href="https://www.google.pl/maps/place/Kawiarnia+KAKAO.+Bia%C5%82oruskie+wypieki%2BDRUK/@52.2458112,21.0770712,17z/data=!3m1!4b1!4m6!3m5!1s0x471ecd30c8ae19e3:0x9d75933981438ec0!8m2!3d52.2458079!4d21.0796515!16s%2Fg%2F11tjv2s7f5?entry=ttu&g_ep=EgoyMDI0MTExMi4wIKXMDSoASAFQAw%3D%3D" class="button is-link is-icon w-inline-block">
+										<div>Otwarcie na mapie</div>
 										<div class="icon-embed-xxsmall w-embed">
 											<svg
 												width="16"
