@@ -1,7 +1,7 @@
 const navigation = [
 	{
 		title: 'Bardziej popularnie',
-		link: '/'
+		link: '#popular'
 	},
 	// Quest
 	{
