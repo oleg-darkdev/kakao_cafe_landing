@@ -2059,12 +2059,12 @@ textarea.w-input, textarea.w-select {
   --text-color--text-primary: var(--base-color-neutral--neutral-darkest);
   --link-color--link-primary: var(--base-color-neutral--neutral-darkest);
   --border-color--border-primary: var(--base-color-neutral--neutral-darkest);
-  --base-color-brand--moss: #86cb3c;
+  --base-color-brand--moss: #F6B375;
   --background-color--background-tertiary: var(--base-color-brand--moss);
-  --base-color-neutral--neutral-darkest: #0e101b;
+  --base-color-neutral--neutral-darkest: #441c16;
   --base-color-neutral--black: black;
   --base-color-neutral--white: white;
-  --base-color-brand--moss-light: #acdc79;
+  --base-color-brand--moss-light: #B75744;
   --black-archive\<deleted\|variable-dccb7db6\>: black;
   --background-color--background-secondary: var(--base-color-brand--moss-lighter);
   --background-color--background-alternate: var(--base-color-brand--cyan);
@@ -2076,9 +2076,9 @@ textarea.w-input, textarea.w-select {
   --background-color--background-error: var(--base-color-system--error-red-light);
   --text-color--text-error: var(--base-color-system--error-red);
   --base-color-neutral--neutral-lightest: #f9f9fb;
-  --base-color-brand--moss-lighterest: #e6f4d7;
+  --base-color-brand--moss-lighterest: #A49B70;
   --border-color--border-secondary: var(--base-color-brand--moss);
-  --base-color-brand--moss-lighter: #ceeab0;
+  --base-color-brand--moss-lighter: #B75744;
   --border-color--border-alternate: var(--base-color-brand--cyan);
   --base-color-brand--cyan-dark: #2a71b3;
   --base-color-brand--black: black;
@@ -2094,7 +2094,7 @@ textarea.w-input, textarea.w-select {
   --base-color-system--error-red-light: #fef3f2;
   --link-color--link-secondary: var(--base-color-brand--cyan);
   --base-color-brand--moss-lightest: #f5fbee;
-  --base-color-brand--moss-dark: #669f2a;
+  --base-color-brand--moss-dark: #441C16;
   --base-color-brand--cyan: #3c86cb;
 }
 
