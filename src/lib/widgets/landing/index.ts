@@ -12,7 +12,7 @@ import VisitUs from './VisitUs.svelte';
 import FreeSection from './FreeSection.svelte';
 import Blog from './Blog.svelte';
 import Contact from './Contact.svelte';
-// import Faq from './Faq.svelte';
+import Quest from './Quest.svelte';
 // import Faq from './Faq.svelte';
 
 
@@ -26,6 +26,7 @@ export {
     Contact,
 	PopularItems,
 	ExploreMenu,
+	Quest,
 	About,
 	VisitUs,
 	FreeSection,
