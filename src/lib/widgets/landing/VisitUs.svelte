@@ -154,7 +154,7 @@
 								<div class="spacer-xsmall"></div>
 								<h3 class="heading-style-h5">Telefon</h3>
 								<div class="spacer-xxsmall"></div>
-								<a href="#" class="text-style-link">+48 (506 416 996)</a>
+								<a href="tel:+48662290677" class="text-style-link">+48 (506 416 996)</a>
 							</div>
 							<div class="contact14_item">
 								<div class="contact14_icon-wrapper">
