@@ -7,7 +7,7 @@
 	const features = [
 		{
 			title: 'Mamy recenzij',
-			img: '/images/feedback.svg',
+			img: '/images/reviews.svg',
 			shortDesc: 'Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.'
 		},{
 			title: 'Nasza ocena',

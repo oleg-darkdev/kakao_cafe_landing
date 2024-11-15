@@ -3,7 +3,6 @@
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
 
-
 	const categories = [
 		{
 			title: 'Ziarenka',
@@ -34,20 +33,17 @@
 			img: '/images/categories/sweets.png',
 			link: '/',
 			shortDesc: ''
-		},
+		}
 	];
 </script>
 
 <section class="section_layout249">
-
-	<a name="contact"></a>
 	<div class="padding-global">
 		<div class="container-large">
 			<div class="padding-section-large less">
 				<div class="layout249_component">
 					<slot></slot>
 
-					
 					<div class="max-width-large">
 						<div class="star-anchor">
 							<h2>Poznaj nasze menu</h2>
@@ -89,25 +85,23 @@
 
 					<div class="spacer-xxlarge"></div>
 					<div class="w-layout-grid layout249_list">
-						<!-- https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d043a809b08ce5825651_wrap1.avif -->
-						 <!-- https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d043e63534e4b2bece9f_bowl3.avif -->
-						  <!-- https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d043a7612342f1cc468a_drink3.avif -->
-						
-						  {#each categories as {title, img, link}}
-						<div class="layout249_item">
-							<div class="layout249_image-wrapper">
-								<a href="#" class="menu-image-link-wrap w-inline-block">
-									<img
-										src="{img}"
-										loading="lazy"
-										sizes="(max-width: 767px) 90vw, (max-width: 991px) 28vw, 27vw"
-										alt="{title} image"
-										class="layout249_image"
-									/>
-								</a>
-								<a href="{link}" class="button is-secondary w-button">{title}</a>
+						<a name="menu"></a>
+
+						{#each categories as { title, img, link }}
+							<div class="layout249_item">
+								<div class="layout249_image-wrapper">
+									<a href="#" class="menu-image-link-wrap w-inline-block">
+										<img
+											src={img}
+											loading="lazy"
+											sizes="(max-width: 767px) 90vw, (max-width: 991px) 28vw, 27vw"
+											alt="{title} image"
+											class="layout249_image"
+										/>
+									</a>
+									<a href={link} class="button is-secondary w-button">{title}</a>
+								</div>
 							</div>
-						</div>
 						{/each}
 					</div>
 				</div>
