@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { popular } from '$sharedData';
+	import { popular, menu } from '$sharedData';
 	// import {  } from '$widgets';
 	import { ItemCard } from '$entitiesLanding'
 
@@ -79,7 +79,7 @@
 				<div class="spacer-xxlarge"></div>
 				<div class="home_features-list_component w-slider">
 					<div class="home_features-list_mask w-slider-mask">
-						{#each popular as item}
+						{#each menu.slice(10, 20) as item}
 							<ItemCard {item} />
 						{/each}
 					</div>

@@ -10,13 +10,13 @@
 <div class="home_features-list_slide w-slide">
 	<div class="home_features-list_item">
 		<div class="home_features-list_image-wrapper">
-			<!-- https://cdn.prod.website-files.com/66a3c8794154857fba1b61c8/66a3d0437900d58be8cfcbec_bowl4.avif -->
+			<!-- home_features-list_image -->
 			<img
 				loading="lazy"
 				sizes="(max-width: 479px) 70vw, (max-width: 767px) 62vw, (max-width: 991px) 37vw, 20vw"
-				src="{item.img}"
+				src="/images/menu/{item.img}"
 				alt="{item.title} img"
-				class="home_features-list_image"
+				class="rounded-lg"
 			/>
 		</div>
 		<div class="spacer-xsmall"></div>
