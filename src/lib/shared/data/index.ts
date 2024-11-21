@@ -4,7 +4,9 @@ import popular from './popular';
 import cultureGamification from './cultureGamification';
 import supportOptions from './supportOptions';
 import comments from './comments';
+import menu from './menu';
+import categories from './categories';
 
 
 
-export { faq, cultureGamification, navigation, popular, comments, supportOptions };
+export { faq, cultureGamification, navigation, popular, comments, menu, categories, supportOptions };
